@@ -1,0 +1,16 @@
+name: freebase_searchwidget_polymer_demo
+author: Günter Zöchbauer <guenter@gzoechbauer.com>
+version: 0.2.2
+homepage: https://github.com/bwu-dart/freebase_search_widget_polymer
+description: Github page showing the freebase_searchwidget
+environment:
+  sdk: '>= 0.8.8 < 2.0.0'
+dependencies:
+  browser: any
+  freebase_searchwidget_polymer:
+    path: /home/zoechi/source/my/dart/freebase_searchwidget_polymer
+  polymer: any
+transformers:
+- polymer:
+    entry_points:
+    - web/index.html

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+
+<!-- import suggest component -->
+<link rel="import" href="packages/freebase_searchwidget/components/freebase_searchwidget.html">
+
+<polymer-element name="app-element">
+  <template>
+    <p>
+      <freebase-searchwidget id='freebase-searchwidget-left' options="{{model.options}}" value='{{model.value}}'></freebase-searchwidget>
+    </p>
+  
+    <p>
+      <freebase-searchwidget id='freebase-searchwidget-right' options="{{model.options}}" value='{{model.value}}' style='position:absolute; right:0px;'></freebase-searchwidget>
+    </p>
+  </template>
+  <script type="application/dart" src='app_element.dart'></script>
+</polymer-element>
